@@ -1,0 +1,19 @@
+{
+  "private": true,
+  "repository": "https://github.com/iamssen/convention.git",
+  "author": "SSen <i@ssen.name>",
+  "license": "MIT",
+  "workspaces": [
+    "eslint-config",
+    "prettier-config"
+  ],
+  "husky": {
+    "hooks": {
+      "pre-commit": "markdown-source-import README.md --git-add"
+    }
+  },
+  "devDependencies": {
+    "@handbook/markdown-source-import": "^1.0.0",
+    "husky": "^4.2.5"
+  }
+}
