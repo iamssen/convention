@@ -13,7 +13,7 @@
     }
   },
   "devDependencies": {
-    "@handbook/markdown-source-import": "^1.0.0",
+    "@handbook/markdown-source-import": "^1.0.1",
     "husky": "^4.2.5"
   }
 }
