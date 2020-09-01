@@ -1,6 +1,6 @@
 {
   "name": "@ssen/eslint-config",
-  "version": "1.3.0",
+  "version": "1.3.1",
   "description": "ESLint Config",
   "author": "Seoyeon Lee <i@ssen.name>",
   "repository": "github:iamssen/eslint-config",
@@ -18,8 +18,8 @@
     "typescript": ">=3.8.0"
   },
   "dependencies": {
-    "@typescript-eslint/eslint-plugin": "^4.0.1",
-    "@typescript-eslint/parser": "^4.0.1",
+    "@typescript-eslint/eslint-plugin": "^3.10.1",
+    "@typescript-eslint/parser": "^3.10.1",
     "babel-eslint": "10.x",
     "confusing-browser-globals": "^1.0.9",
     "eslint-plugin-import": "^2.22.0",
