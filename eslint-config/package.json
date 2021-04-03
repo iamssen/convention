@@ -1,6 +1,6 @@
 {
   "name": "@ssen/eslint-config",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "ESLint Config",
   "author": "Seoyeon Lee <i@ssen.name>",
   "repository": "github:iamssen/eslint-config",
