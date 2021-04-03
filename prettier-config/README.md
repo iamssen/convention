@@ -1,5 +1,22 @@
 # Prettier config
 
+<!-- source index.json -->
+
+[index.json](index.json)
+
+```json
+{
+  "$schema": "http://json.schemastore.org/prettierrc",
+  "semi": true,
+  "singleQuote": true,
+  "quoteProps": "consistent",
+  "trailingComma": "all",
+  "bracketSpacing": true
+}
+```
+
+<!-- /source -->
+
 ## Usage
 
 Install.

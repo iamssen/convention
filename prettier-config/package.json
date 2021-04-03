@@ -1,6 +1,6 @@
 {
   "name": "@ssen/prettier-config",
-  "version": "1.2.0",
+  "version": "2.0.0",
   "description": "Prettier Config",
   "author": "Seoyeon Lee <i@ssen.name>",
   "repository": "github:iamssen/convention",
@@ -8,6 +8,7 @@
   "license": "MIT",
   "main": "index.json",
   "publishConfig": {
+    "cache": "~/.npm",
     "access": "public"
   }
 }

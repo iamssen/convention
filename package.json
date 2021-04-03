@@ -7,13 +7,18 @@
     "eslint-config",
     "prettier-config"
   ],
+  "scripts": {
+    "docs": "markdown-source-import **/*.md --git-add",
+    "update-eslint-config-dependencies": "node update-eslint-config-dependencies.js"
+  },
   "husky": {
     "hooks": {
-      "pre-commit": "markdown-source-import README.md --git-add"
+      "pre-commit": "markdown-source-import **/*.md --git-add"
     }
   },
   "devDependencies": {
     "@handbook/markdown-source-import": "^1.0.1",
-    "husky": "^4.2.5"
+    "husky": "^4.2.5",
+    "node-fetch": "^2.6.1"
   }
 }
